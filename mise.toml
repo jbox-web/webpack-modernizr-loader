@@ -1,0 +1,11 @@
+[tools]
+nodejs = "24.14.0"
+yarn   = "1.22.22"
+
+[tasks.deps]
+description = "Install dependencies"
+run = "yarn install"
+
+[tasks.test]
+description = "Run tests"
+run = "yarn run test:only"
